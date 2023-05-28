@@ -1,0 +1,41 @@
+
+
+
+
+
+
+/* dropdown color changing navigation css */
+.primary ul li ul{
+display: none;
+white-space: nowrap;
+}
+
+.primary ul li ul li{
+    margin-top: 0%;
+    margin-bottom: 0%;
+margin: 10px;
+color: black;
+background-color: white;
+border-radius: 10px;
+
+}
+.primary ul li ul li  ul{
+position: absolute;
+
+
+}
+.primary ul li ul li  ul li {
+
+position: relative;
+background-color: white;
+color: black;
+padding: 10px;
+
+}
+
+
+.primary ul li:focus-within > ul,
+.primary ul li:hover > ul{
+    display: initial;
+    cursor: pointer;
+}

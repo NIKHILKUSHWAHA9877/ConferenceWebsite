@@ -1,0 +1,412 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AUi-qJCY.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+body {
+    color: #888;
+    background-color: #293f50;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: fit-content;
+    margin-top: 0%;
+    margin: auto;
+}
+
+a {
+    color: #648880;
+    text-decoration: none;
+    font: inherit;
+}
+
+.confrence>a {
+    color: white;
+}
+
+
+/* logo main */
+.confrence {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    float: left;
+    border-top: 4px solid #648880;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+
+.date {
+    margin: 66px 0 22px 0;
+    text-align: right;
+    color: #648880;
+    font-size: 19px;
+
+}
+
+
+
+
+
+/* text designing */
+.para_2 {
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 22px;
+    font-weight: 100;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+li>a {
+    color: white;
+
+}
+/* ********* */
+
+
+
+
+
+
+/* navigations page header design like speakers,venue,register etc */
+.section_main {
+    margin-top: 20px;
+    background-color: 100%;
+    text-align: center;
+    background-color: #cbe2c1;
+    padding: 40px 0px 25px 0px;
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+.second {
+    /* width: 980px; */
+    margin: auto;
+    background: 100%;
+}
+
+.second>h1 {
+    font-size: 37px;
+    line-height: 40px;
+    margin-bottom: 24px;
+    margin-top: 0%;
+    font-weight: 100;
+    color: #648880;
+}
+
+.column>p {
+    color: #888;
+}
+/* navigations page header design like speakers,venue,register etc end-here */
+
+
+
+
+
+/* navigation bar lower and upper */
+.footer_main {
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.nav {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.brn {
+    width: 960px;
+    justify-content: space-between;
+    display: flex;
+    color: #648880;
+}
+
+.nav_2 {
+
+    font-size: 12px !important;
+
+}
+
+/* ********************** */
+
+
+
+
+
+/* hover effects on text  */
+a:hover {
+    color: #648880;
+}
+
+h3:hover {
+    color: #c0d4d0;
+}
+/* **************** */
+
+
+
+
+
+
+hr{
+    width: 50%;
+
+}
+
+
+
+
+/* speakers page designing  */
+
+.head_speaker {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 960px;
+}
+
+.speakers_info_main {
+
+    background-color: white;
+}
+
+.speakers_info {
+    display: flex;
+    margin: auto;
+    width: 64%;
+    justify-content: space-between;
+}
+
+
+.speakers_name>h4 {
+    margin-top: 50px !important;
+    margin-bottom: 0%;
+    font-size: 24px;
+    color: #648880;
+    font-weight: 100 !important;
+
+}
+
+.speakers_view {
+    font-size: 17.4933px !important;
+    font-weight: 100;
+    margin-top: 30px;
+
+}
+
+.speakers_img {
+    border: 1px solid #dfe2e5;
+    text-align: center;
+    padding: 25px;
+    margin-top: 120px;
+    height: 130px;
+    border-radius: 6px;
+    margin-left: 30px;
+
+}
+
+.speakers_img>.speaker_img {
+    border-radius: 50%;
+    height: 130px;
+    margin: -66px 0 22px 0;
+
+}
+
+.speakers_head {
+    color: #a9b2b9;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+a:hover {
+    color: #cbd2d1;
+}
+/* speakers page designing end here  */
+
+
+
+
+
+/* venue page  map and address section design  */
+.venue_location {
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-bottom: 70px;
+
+}
+
+.venue_location>iframe {
+    height: 264px;
+    width: 165%;
+}
+/* ****************************** */
+
+
+
+
+
+
+/* register page register form designing  */
+.form_register {
+    width: 960px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+label {
+    cursor: pointer;
+    color: #648880;
+}
+
+.register input,
+.register textarea {
+    width: 100%;
+}
+
+.register input,
+.register select,
+.register textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 10px 0px;
+    padding: 5px 8px;
+    margin-bottom: 0%;
+}
+
+textarea {
+
+    width: 246px !important;
+    height: 119px !important;
+
+}
+
+/* ********************************* */
+
+
+
+
+
+
+/* register page button */
+.btn {
+    margin-top: 0% !important;
+    width: 150px !important;
+    border-radius: 5px !important;
+    background-color: #648880 !important;
+    cursor: pointer !important;
+    border: white 1px solid !important;
+    padding: 17px !important;
+    color: white !important;
+
+}
+
+.btn:hover {
+    background-color: #a6b1af !important;
+}
+
+/* **********************************/
+
+
+
+
+
+
+
+.speakers_view>li {
+    list-style: square;
+}
+
+
+
+
+
+
+
+
+/* schedule table css start */
+.container {
+    width: 100%;
+
+}
+
+table {
+    padding: 40px;
+    margin-bottom: 44px;
+
+    margin-top: 50px;
+}
+
+tbody td {
+    border-top: 1px solid #dfe2e5;
+    padding-top: 21px;
+
+}
+
+th {
+    padding: 26px;
+    color: #648880;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
+table h4 {
+    font-size: 18px !important;
+    color: #648880 !important;
+}
+
+h4,
+a {
+    font-weight: 100;
+    margin: 0;
+    color: #888;
+}
+
+.time {
+
+    color: #a9b2b9;
+    font-size: 14px;
+}
+
+.time,
+.time_wo {
+    color: #a9b2b9;
+    font-weight: 100;
+    padding-top: 0px;
+}
+
+/* schedule table css end */
+
+
+
+
+
+
+/* responsiveness  */
+@media screen and (max-width: 950px) {
+    .para_2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AUi-qJCY.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHh30AXC-q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+
+body {
+    background-color: #293f50;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    width: fit-content;
+}
+
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    padding: 0px 0px 30px 30px;
+    margin: auto;
+    font: inherit;
+    background: 100%;
+}
+
+
+
+
+
+
+
+/* section 1 logo and date */
+.confrence {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+
+
+
+
+.date {
+    margin: 66px 0 22px 0;
+    text-align: right;
+    color: #648880;
+    font-size: 22px;
+}
+
+
+
+.intro {
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+
+}
+/* section 1 logo and date end */
+
+
+
+
+
+
+
+/* button design */
+.btn {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: white 1px solid;
+    padding: 20px;
+
+}
+
+.btn:hover {
+    background: white;
+    font-weight: 400;
+}
+
+/*  button design end */
+
+
+
+#section_main {
+    margin-top: 80px;
+    background-color: white;
+    width: 100%;
+    background-color: 100%;
+    /* display: flex;  */
+    /* padding: 50px 0px 40px 0px; */
+
+}
+
+
+
+
+/* home page image grid design */
+.grid {
+    width: fit-content;
+    width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 15px 15px;
+}
+
+/*************************/
+
+
+
+
+.column {
+    width: fit-content;
+    width: 960px;
+    text-align: left;
+    width: 40%;
+    padding: 30px;
+}
+
+
+.main_img {
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
+
+
+
+/* font desings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.nav_2 {
+    font: inherit;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font: inherit;
+}
+
+
+h3 {
+    font-size: 20px !important;
+}
+
+
+h5 {
+
+    font-size: 18px !important;
+    margin-bottom: 23px;
+    color: #648880;
+}
+
+
+h4 {
+    font-size: 22px !important;
+    color: #a9b2b9;
+}
+
+
+h1 {
+
+    font-size: 36.5781px !important;
+}
+
+
+.column>p {
+    color: #888;
+}
+
+
+.para {
+    color: white;
+    line-height: 44px;
+    margin-bottom: 45px;
+    font-size: 30.5781px;
+    font-weight: 100;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/*************************/
+
+
+
+
+
+
+/*  navigation design  */
+.footer_main {
+    width: 960px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.nav {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.brn {
+    width: 960px;
+    justify-content: space-between;
+    display: flex;
+    color: #648880;
+}
+
+.nav_2 {
+    font-size: 12px !important;
+}
+
+/*************************/
+
+
+
+
+/* on hover design */
+a:hover {
+    color: #648880;
+}
+
+h3:hover {
+    color: #c0d4d0;
+}
+
+/*************************/
+
+
+
+
+
+
+/* responsiveness */
+@media screen and (max-width: 950px) {
+    .para {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
